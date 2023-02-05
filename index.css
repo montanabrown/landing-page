@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+* {
+
+	margin: 0px;
+	font-family: Poppins, sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+
+	background: #ffbd59;
+
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	background-color: black;
+	height: 64px;
+}
+
+header .logo {
+	display: flex;
+	justify-content: left;
+	padding-left: 66px;
+	padding-top: 10px;
+}
+
+header .menu ul {
+	display: flex;
+	list-style-type: none;
+	position: relative; right: 800px;
+}
+
+header .menu li a {
+	color: white;
+	text-decoration: none;
+	padding-right: 50px;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+h2 {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-right: 85%;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 20px;
+	margin-bottom: 64px;
+
+}
+
+main .songholder {
+	font-weight: 500px;
+
+}
+
+main .songholder ul {
+	list-style-type: none;
+
+}
+
+main .songholder li {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-top: 60px;
+	padding-right: 256px;
+	width: 100%;
+
+}
+
+main .songholder li .albumartwork {
+	display: flex;
+}
+
+main .songholder li .SongAndArtist {
+	padding-left: 64px;
+}
+
+main .songholder li .GenreKeyBPM {
+	padding-left: 256px;
+}
+
+main .songholder li span a {
+	text-decoration: none;
+	color: black;
+}
