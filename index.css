@@ -17,7 +17,7 @@ body {
 header {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: left;
 	flex-direction: row;
 	background-color: black;
 	height: 64px;
@@ -33,7 +33,6 @@ header .logo {
 header .menu ul {
 	display: flex;
 	list-style-type: none;
-	position: relative; right: 800px;
 }
 
 header .menu li a {
